@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine.UI; 
 using UnityEngine.AI;
 
+[RequireComponent(typeof(UnitSelectionController))]
 public class Character : MonoBehaviour {
 	
 	//variables visible in the inspector

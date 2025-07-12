@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(CastleCracksController))]
 public class Castle : MonoBehaviour {
 	
 	//variables visible in the inspector
