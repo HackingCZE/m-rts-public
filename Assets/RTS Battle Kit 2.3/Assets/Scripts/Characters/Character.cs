@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using RTS_Battle_Kit_2._3.Assets.Scenes.Example_scene_main.Scripts;
 using Unity.VisualScripting;
 using UnityEngine.UI; 
 using UnityEngine.AI;
 
 [RequireComponent(typeof(UnitSelectionController))]
+[RequireComponent(typeof(CharacterParticleController))]
 public class Character : MonoBehaviour {
 	
 	//variables visible in the inspector
